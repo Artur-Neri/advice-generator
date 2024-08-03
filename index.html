@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/icon-dice.svg">
+  
+  <title>Frontend Mentor | Advice generator app</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="quote">
+    <p class="quote__number">ADVICE #<span id="adviceNumber"></span></p>
+    <h2 class="quote__text" id="adviceText" aria-live="polite"></h2>
+    <div class="quote__divider">
+      <img src="./images/pattern-divider-desktop.svg" alt="visual divider">
+    </div>
+    <button class="quote__randomize" id="btnRandomizeAdvice">
+      <img src="./images/icon-dice.svg" alt="randomize quote icon">
+    </button>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
